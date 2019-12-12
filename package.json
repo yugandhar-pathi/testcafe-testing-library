@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "testcafe",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,5 +30,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/testcafe": "^3.3.0",
+    "faker": "^4.1.0",
+    "miragejs": "^0.1.32",
+    "testcafe": "^1.7.0"
   }
 }

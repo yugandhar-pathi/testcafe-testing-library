@@ -1,0 +1,9 @@
+{
+  "browsers": "path:`/Applications/Google Chrome.app`",
+  "appCommand": "BROWSER=none react-scripts start",
+  "src": "./src/**/integration-test/*.js",
+  "skipJsErrors": true,
+  "clientScripts": [
+    "./node_modules/@testing-library/dom/dist/@testing-library/dom.umd.js"
+  ]
+}
