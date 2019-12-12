@@ -1,6 +1,6 @@
 import { getByTestId } from "@testing-library/testcafe";
 import { Selector } from "testcafe";
-fixture("Stores Table Header - tests").page("http://localhost:3030/");
+fixture("Stores Table Header - tests").page("http://localhost:3000/");
 
 test("Test case using Selector", async t => {
   await t
